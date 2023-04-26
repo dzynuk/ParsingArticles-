@@ -1,6 +1,5 @@
 # This code downloads a large number of XML files from a specific URL using the requests library in Python.
-# The code creates a list of file URLs to download, and then iterates through the list, downloading each file using urllib.request.urlretrieve() function.
-# The downloaded files are saved in a folder called 'folderofarticles'. If the folder does not exist, it is created using os.makedirs() function.
+# The code creates a list of file URLs to download, and then iterates through the list, downloading each file.
 
 import requests
 import os
